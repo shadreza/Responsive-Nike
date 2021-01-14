@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:  #FFF9F4;
+    width: 100%;
+}
+
+.navbar{
+    background-color:  #FFF9F4;
+}
+
+.logo-image{
+    max-width: 40%;
+    position:relative;
+    left: 16%;
+}
+
+.openning-highlighting-shoe{
+    width: 70%;
+    padding-bottom: 10%;
+}
+
+.openning-highlighting-shoe-top-heding{
+    color: #FA804C;
+    font-size: 50px;
+}
+
+.openning-highlighting-shoe-bottom-heding{
+    color: #363958;
+    font-size: 50px;
+}
+
+.openning-highlighting-shoe-bottom-paragraph{
+    max-width: 70%;
+}
+
+.casual-shoes{
+    margin-top: 10%;
+}
+
+.formal-shoes{
+    margin-top: 10%;
+}
+
+.casual-shoes-header{
+    padding: 4% auto;
+    margin: 2% 0;
+}
+
+.formal-shoes-header{
+    padding: 4% auto;
+    margin: 2% 0;
+}
+
+.price-and-button{
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.features-of-the-shop{
+    padding: 10% 0;
+}
+
+.features-of-the-shop-right-image{
+    width: 100%;
+    height: 100%;
+}
+
+.features-left-images{
+    width: 100%;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.image-shoe{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.shoe-contents-for-shadow{
+    box-shadow: 15px 15px 20px gainsboro;
+}
+
+.feature-contents-for-shadow{
+    box-shadow: 5px 5px 10px gainsboro;
+}
+
+.features-needed-to-be-rounded{
+    margin: 4% 0;
+    border-radius: 20px;
+}
+
+.price{
+    color: #FA804C;
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+    #id-price{
+        font-size: 26px;
+    }
+
+    .buy-button{
+        font-size: 20px;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .price{
+        font-size: 16px;
+    }
+
+    .buy-button{
+        font-size: 14px;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 990px) {
+    .hamburger-button{
+        position: relative;
+        left: 35%;
+        bottom: 36px;
+    }
+}
